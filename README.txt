@@ -1,3 +1,5 @@
+This is my personal website, adapted from a template from html5up. I just tweak things to work, I didn't build it myself. Their readme is below.
+
 Hyperspace by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
