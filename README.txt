@@ -1,4 +1,4 @@
-This is my personal website, adapted from a template from html5up. I just tweak things to work, I didn't build it myself. Their readme is below.
+This is my personal website, adapted from a template from html5up. I just tweaked some things to work, I didn't build it myself. Their readme is below.
 
 Hyperspace by HTML5 UP
 html5up.net | @ajlkn
