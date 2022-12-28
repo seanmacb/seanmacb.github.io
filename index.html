@@ -1,208 +1,290 @@
-<!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Sean MacBride</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!-- This site was created using the https://latex.vercel.app/ template - all of the information about using a similar template 
+  can be found on Vincent Dörig's Github - https://github.com/vincentdoerig/latex-css -->
 
-		<!-- Sidebar -->
-			<section id="sidebar">
-				<div class="inner">
-					<nav>
-						<ul>
-							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">What I do</a></li>
-							<li><a href="#two">How I do it</a></li>
-							<li><a href="#three">How to find me</a></li>
-						</ul>
-					</nav>
-				</div>
-			</section>
+<!DOCTYPE html>
+<html lang="en">
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="tm5Y6ZNTf-lBqbwniGjQPv1q02o2TuUQZ9GTYa4SMLg" />
+  <title>Sean MacBride</title>
 
-				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Sean MacBride</h1>
-							<p>I am an opto-mechanical technician contributing to the assembly, integration, and testing of the LLAMAS spectrograph with the Astronomical Instrumentation Team at the Massachusetts Institute of Technology.
-								I recently graduated from Wheaton College cum laude in May 2020 with honors in physics.
-								I will enroll in a PhD program in Fall 2022.</p>
-							<ul class="actions">
-								<li><a href="#one" class="button scrolly">Learn more</a></li>
-							</ul>
-						</div>
-					</section>
+  <meta name="description"
+    content="A minimal, almost class-less CSS library to write modern websites that look like LaTeX documents." />
+  <meta name="keywords" content="latex.css,css library,class-less css,latex css" /> <!-- Update this sometime -->
+  <meta property="og:title" content="LaTeX.css" />
+  <meta property="og:url" content="https://latex.now.sh" />
+  <meta property="og:description"
+    content="A minimal, almost class-less CSS library to write modern websites that look like LaTeX documents." />
+  <meta property="og:type" content="website" />
 
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="prism/prism.css" />
+</head>
 
-						<section>
-							<a href="#" class="image"><img src="images/IMG_4564.JPG" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Research</h2>
-									<p>I am currently contributing to the assembly, integration, and testing of the LLAMAS spectrograph. Previously, I examined the relationship between galaxy observables and the dust and cold-gas content of star-forming galaxies in the local universe. </p>
-									<ul class="actions">
-										<li><a href="Research.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
+<body id="top">
+  <header>
+    <h1><span class="latex">Sean MacBride</h1>
+  </header>
+
+  <div class="abstract">
+    <p>
+      Hi. I am a physicist studying graviational waves and cosmology at the University of Michigan-Ann Arbor. 
+      I am currently earning my Ph.D in physics at the University of Michigan-Ann Arbor under the direction of Keith Riles.
+    </p>
+  </div>
+
+  <nav role="navigation" class="toc">
+    <h2 id="toc">Contents</h2>
+    <ol>
+      <li><a href="#current-research">Current research</a></li>
+      <li><a href="#past-research">Past research</a>
+        <ol>
+          <li><a href="#MIT-AIT">MIT-AIT</a></li>
+          <li><a href="#STARSPOT">STARSPOT</a></li>
+          <li><a href="#UCL">UCL-Wheaton College</a></li>
+          <li><a href="#RI">RI-UCL</a></li>
+          <li><a href="#Rutgers">Rutgers-New Brunswick</a></li>
+          <li><a href="#PANOPTES">P.A.N.O.P.T.E.S.</a></li>
+          <!-- <li><a href="#Astro-Wheaton">Astro projects at Wheaton College</a></li> -->
+          <!-- <li><a href="#NASA-LaRC">NASA-LaRC</a></li> -->
+          <!-- <li><a href="#Wheaton-MIR">Building lasers at Wheaton College</a></li> -->
+      </ol>
+      </li>
+      <!-- <li><a href="#Outreach">Outreach</a></li> -->
+      <!-- <li><a href="#Teaching">Teaching</a></li> -->
+      <!-- <li><a href="#Media">Media</a></li> -->
+      <li><a href="#CV">CV</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ol>
+  </nav>
+  
+  <main>
+    <article>
+      <h2 id="current-research">Current Research</h2>
+      <p>I study continuous gravitational waves using rapidly spinning neutron stars as the primary target of observation. I am developing specialized tools 
+        for detecting continuous gravitational waves from post-merger binary star systems that have recently coalesced into a single compact object, usually 
+        a neutron star. </p>
+        <p>Think of this less cosmic example: If a perfectly spherical ball was spinning on the surface of a still body of water, the ball would not generate 
+          any ripples in the water due to the uniform surface of the ball. If a rugby ball or any other non-spherical object was rapidly spinning on the 
+          surface of a still body of water, it would generate ripples, due to the non-spherical surface interacting with the water differently as the ball 
+          progresses through a single rotation. </p>
+        <p>When neutron stars rotate very fast, they deform from a perfectly spherical star to an oblate spheroid, which looks somewhat like a rugby ball. 
+          The “ripples in the water” are instead ripples in space, which can be detected with interferometers. These continuous ripples are very weak in 
+          comparison to the ripples from mergers, so I use data collected from the LIGO interferometers over their two-year observation runs.</p>
+        
+      <p><a href="#top">Back to top</a></p>
+      <h2 id="past-research">Past Research</h2>
+      
+      <h4 id="MIT-AIT">Integrating the LLAMAS spectrograph at the Massachusetts Institute of Technology</h4>
+      <p>I earned the opportunity to further my technical repertoire when I joined the Astronomical Instrumentation Team (AIT) at the Massachusetts 
+        Institute of Technology in November 2020, under principal investigator Gábor Fûresz and faculty lead Prof. Rob Simcoe. AIT is building 
+        the LLAMAS spectrograph for the Magellan Telescopes at Las Campanas Observatory in Chile, scheduled to be installed in July 2022. I assembled 
+        optical mounts and ground support equipment, designed optical mounting fixtures, and tested diffraction gratings to ensure they met optical-design 
+        requirements. </p>
+        <div style="text-align:center">
+          <figure>
+          <img style="width: 100%;max-height: 100%" src="images/IMG_4564.jpeg"></img>
+          <figcaption>Bonding the first fiber in the LLAMAS spectrograph</figcaption>
+        </figure>
+        </div>
+        <p>My principal responsibility was integrating the fiber run of the spectrograph. I found that my early attempt to bond fibers with the required 
+          precision was too slow to meet our project deadlines. To remedy this, I wrote LabView code to allow for simple DC motor control through a 
+          computer interface, removing a critical project bottleneck. These adjustments enabled exceptional accuracy in the fiber run when compared 
+          to the design requirements (100% fiber yield vs. 99.5% requirement). I presented the science and engineering status of the LLAMAS instrument 
+          to an astronomy class at Wheaton College in November 2021.</p>
+        <div style="text-align:center">
+          <figure>
+          <img style="width: 100%;max-height: 100%" src="images/IMG_2118.jpeg"></img>
+          <figcaption>The LLAMAS Team!</figcaption>
+        </figure>
+        </div>
+      <h4 id="STARSPOT">The STellar Activity Recorder and SpectroPhotometric ObservaTory</h4>
+      <p>In parallel to LLAMAS, I have developed software tools to support a research proposal for AIT, concentrating on using solar spectrophotometry 
+        to extend photosphere and chromosphere events on the sun to activity on exoplanet host stars. AIT has installed a multi-channel solar spectrometer
+         at Lowell Observatory in Flagstaff Arizona to perform a preliminary ground-based study. I created analysis tools for this spectrometer and organized 
+         meetings between AIT members and collaborators at other institutions.</p>
+         <div style="text-align:center">
+          <figure>
+          <img style="width: 100%;max-height: 100%" src="images/image.png"></img>
+        </figure>
+        </div>
+         <p>Early in the project, I struggled with developing a data pipeline that maintained compatibility with all of the observations, as their file 
+          structure was constantly being modified to accommodate the high data volume. After iteration, I constructed a robust and flexible data pipeline 
+          with the capability to accurately represent all solar observations. This pipeline enabled a detailed analysis of several solar events in the 
+          second half of 2021 and served as supporting evidence in a forthcoming publication that describe the project scope.</p>
+
+      <h4 id="UCL">Cold-gas and dust evolution in star-forming galaxies</h4>
+      <p>I investigated cold-gas and dust scaling relationships in star-forming galaxies in a joint venture between associate professor Amélie Saintonge 
+        at University College London and Professor Maitra at Wheaton College. I built a data pipeline for use with derived data from the xCOLD GASS, JINGLE,
+         and SDSS galaxy surveys. I developed a Markov-chain Monte-Carlo sampler to constrain the relationship between different matter components and the 
+         Balmer emission of star-forming galaxies in the xCOLD GASS and JINGLE surveys.</p>
+         <div style="text-align:center">
+          <figure>
+          <img style="width: 100%;max-height: 100%" src="images/IMG_0842.jpeg"></img>
+          <figcaption>Adjusting to the COVID-19 pandemic to work from home</figcaption>
+        </figure>
+        </div>
+         <p>When the full effects of the COVID-19 pandemic began to impact the world, I adjusted to working from home to complete the project within the
+           modified school year. I applied the smaller survey calibration to a wider set of galaxies in SDSS to discover a bias from galactic inclination. 
+           Through a virtual thesis defense, I <a href="https://github.com/seanmacb/MCMC-Dust-Gas-SF-Gal/blob/master/Presentation/Defense.pptx">presented 
+            these results</a> to faculty and peers from both institutions and submitted 
+            <a href="https://github.com/seanmacb/MCMC-Dust-Gas-SF-Gal/blob/master/Thesis%20document%20-%20draft%20and%20Wheaton%20submission/Thesis%20submitted.pdf">
+            a final report</a>, earning the highest distinction from the faculty of both colleges. </p>
+            <p>Following this presentation, I generalized the calibration to include the effects of galactic inclination to better constrain the cold-gas 
+              and dust content. This study will be used with the Bright Galaxy Survey from the newly commissioned Dark Energy Spectroscopy Instrument (DESI) to 
+              provide a critical understanding of the evolution of baryons in the dark-energy dominated universe.</p>
+      <h4 id="RI">Nanophysics for medical diagnostics</h4>
+      <p>I studied at University College London (UCL) during the spring semester of my junior year. The pinnacle achievement of the spring came during a
+         Group Project with other UCL students and the Royal Institute of London, determining the detection limits of lateral flow assays through photothermal 
+         heating of magnetic nanoparticles.  </p>
+							<p>While I was unacquainted with the other members of my group and had no previous experience in biophysics, the project provided an opportunity 
+                to test my intellectual flexibility and management skills in an unfamiliar environment. I took a leading role in the project by coordinating 
+                laboratory logistics, maintaining safety measures, and preparing solutions and samples for observation. </p>
+							<p>I aided in the design of the sample and laser apparatus, conducted sample experiments, and analyzed photothermal heating data to determine 
+                the optimal solution concentration and membrane type to maximize the photothermal signal. The results of this study were documented in 
+                <a href="https://github.com/seanmacb/Group-Project-UCL/blob/master/Final_Report.pdf">a report</a>, presented at 
+                <a href="https://github.com/seanmacb/Group-Project-UCL/blob/master/finalposter.pdf">a poster session</a>, and received the highest marks from 
+                UCL and Royal Institute faculty.
+							</p>
+      <h4 id="Rutgers">Tidal disruptions in dwarf satellite galaxies</h4>
+      <p>In the summer following my sophomore year at Wheaton College, I earned a position in the National Science Foundation Research Experiences 
+        for Undergraduates program at Rutgers University. I was paired with Professor Carlton Pryor to study dwarf satellite galaxies using astrometry
+         from the second data release of the Gaia space observatory. I developed a data pipeline with photometric and kinematic filters that could be 
+         applied to any Gaia data selection. After failing to discover a structural disruption in the Boötes dwarf satellite, I detected a tidal tail 
+         induced by the proper motion of the dwarf satellite Carina. </p>
+      <div style="text-align:center">
+        <figure>
+        <img style="width: 100%;max-height: 100%" src="images/2018REU-symp.gif"></img>
+        <figcaption>The cohort of the 2018 REU physics and astronomy at Rutgers University</figcaption>
+      </figure>
+      </div>
+      <p>Accepting the minor setbacks that preceded this awe-inspiring scientific discovery was a crucial moment that pivoted my research philosophy towards 
+        appreciating every step of the process that precipitates success. I presented a poster at the Rutgers Summer Research Symposium and the 234th meeting 
+        of the American Astronomical Society in St. Louis, Missouri. I also delivered oral presentations to faculty and peers at both Rutgers University and 
+        Wheaton College.</p>
+      <div style="text-align:center">
+        <figure>
+        <img style="width: 100%;max-height: 100%" src="images/tmk.jpeg"></img>
+        <figcaption>My poster showcasing the observational evidence of tidal disruption in Carina at the 234th meeting of the AAS in St. Louis MO.</figcaption>
+      </figure>
+      </div>
+      <p>Presenting at Wheaton College enabled an opportunity to become an active peer advisor to other Wheaton students, providing academic, professional, and
+         personal guidance on a formal and informal basis. Studying at Rutgers offered me the chance to be a principal contributor in an astronomy research 
+         project and to improve the careers and lives of fellow students, even after I graduated.</p>
+      <h4 id="PANOPTES">P.A.N.O.P.T.E.S.</h4>
+      <p>In my sophomore year at Wheaton College, I shifted my focus towards astronomy. I sought out Professor of astronomy, Dipankar Maitra. Professor 
+        Maitra connected me with another Wheaton student, and we began collaborating on a citizen-science exoplanet collaboration called project PANOPTES. 
+        In coordination with software engineer James Synge of Google, we installed a robotic telescope inside an observatory dome at Wheaton. When installing
+         the unit, it became clear that some modifications to the magnetic sensors in the dome were necessary to ensure continuous compatibility.</p>
+         <div style="text-align:center">
+          <figure>
+          <img style="width: 100%;max-height: 100%" src="images/panoptes_up.jpeg"></img>
+          <figcaption>PANOPTES giving us some trouble, staring at the sky, exposing its non-weather-proofed lenses to the elements</figcaption>
+        </figure>
+        </div>
+        <p> After amending the sensor placement with hand tools, I aligned the unit over three nights of precise adjustments in the frigid February 
+          weather of Massachusetts while the PANOPTES team communicated through an online chat. Once operating, I presented the PANOPTES instrumentation 
+          at the Northeast Astronomy Forum 2018 in Suffern New York in the hopes of attracting other amateur astronomers to expand the PANOPTES network.</p>
+							<div style="text-align:center">
+								<figure>
+								<img style="width: 100%;max-height: 100%" src="images/D8B483AD-BED1-49CD-9F81-407FADCC9EC6.jpeg"></img>
+								<figcaption>My peer,  collaborator, and good friend Joseph Casarella standing alongside PANOPTES at NEAF 2018</figcaption>
+							</figure>
 							</div>
-						</section>
-
-						<section>
-							<a href="#" class="image"><img src="images/presentingAtAAS234.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Media</h2>
-									<p>I strive to present complex concepts through easily digestible channels. I am currently developing a website to provide easy access to an N-dimensional linear Markov chain Monte-Carlo sampler that others can use with their data.</p>
-									<ul class="actions">
-										<li><a href="Media.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
+              <p>I continued maintenance on the PANOPTES telescope and observatory dome until it was removed for weather-proofing upgrades in December 2018.</p>
+      <!-- <h4 id="#Astro-Wheaton">Astronomy Projects at Wheaton College</h4> 
+      <p>I completed several smaller projects for an Observational Astronomy class. I derived the periods in four x-ray binary systems from archived data, 
+        obtained and analyzed stellar spectra using a DSLR mounted diffraction grating, and identified outburst events in archival data from the 2015 outburst 
+        of the V404 Cygni system. Working on multiple astronomy projects in parallel furthered my interest in studying the cosmos, and sharpened the project 
+        management skills necessary to excel in any environment.</p>
+							<div style="text-align:center">
+								<figure>
+								<img style="width: 100%;max-height: 100%" src="images/vegaplot.png"></img>
+								<figcaption>Spectrum of Vega obtained using a DSLR camera and diffraction grating. Two prominent iron absorption lines are shown with 
+                  vertical lines.</figcaption>
+							</figure>
+							</div> -->
+      <!-- <h4 id="NASA-LaRC">Building Lasers: Part II</h4> 
+      <p>I began an internship at NASA Langley Research Center in the summer of 2017. Dr. Brian Walsh laid out a plan to build and demonstrate a 
+        proof-of-concept mid-infrared laser to monitor the atmosphere. I developed a ray transfer analysis model to predict the characteristics of 
+        a Gaussian beam from varying optical components and resonator specifications. Subsequently, I performed spectroscopy on the resonator components 
+        to determine the transmission and reflection of different components once the model was complete. I built and tested a near-infrared pump 
+        source while the mid-infrared medium of the laser was being sent to the lab. </p>
+							<div style="text-align:center;">
+							<video style="width: 100%;max-height: 100%" controls > <source src="images/MyMovie1_v2.mp4" type="video/mp4"></video>
 							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/IMG_0464.JPG" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Blog</h2>
-									<p>I have a blog where I catalog my stream of conciousness.</p>
-									<ul class="actions">
-										<li><a href="Blog.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
+							<p> Despite having less than a week to operate the mid-infrared component of the laser, I proved the feasibility of the design using 
+                photothermal sheets. The study was a success, offering a lesson in appreciating the foundational work in a research project. 
+                Properly utilizing the time before I could enter the next phase of the project provided me with the tools to excel under pressure. </p>
+      -->
+      <!-- <h4 id="#Wheaton-MIR">Building Lasers at Wheaton College</h4> 
+      <p>I sought out research opportunities within the first month of arriving at Wheaton College. I elected to stay at school during my first winter 
+        break to build solid-state lasers under the guidance of my academic advisor, Professor John Collins. The meticulous endeavor of laser development,
+         operation, and characterization offered my first experience observing and exercising the techniques and methods used in professional physics research.</p>
+							<p>Of all my experiences, I found that working with a complex and attentive mind like John Collins has benefitted me the most.
+                 As a mentor, JC was an important component of my professional development, enforcing the importance of safety, steady hand, and enjoying 
+                 your work throughout the failures and successes. JC continues to be a role-model for success at Wheaton College.</p>
+      -->
+      <p><a href="#top">Back to top</a></p>
+      <!-- <h2 id="Outreach">Outreach</h2>
+      <p><a href="#top">Back to top</a></p> -->
 
-				<!-- Two - This is like your CV lite -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>My skills and abilities</h2>
-							<p>If you are interested, I have a full C.V. available for download.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Computer Skills</h3>
-									<p>I recently have been using machine learning to solve problems in astronomy. I am flexible using Windows, Mac, and Linux systems.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-bullhorn"></span>
-									<h3>Communication</h3>
-									<p>The roots of a healthy collaboration lies in open communication. It is my imperative to actively listen, respectfully discuss, constructively critique, and show empathy to others.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Computer Languages</h3>
-									<p>I primarily code in Python. I also have experience using MATLAB, C++, Shell, Mathematica, LATEX, and Git.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-tasks"></span>
-									<h3>Management</h3>
-									<p>Over several projects I have shown strong time management skills, effective communication in oral and written presentations, and compusure to perform at a high level under stressful circumstances.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-keyboard"></span>
-									<h3>Data Analysis</h3>
-									<p>Tools that I use to solve problems in Python include Jupyter, MatPlotLib, Seaborn, Pandas, NumPy, SciPy, and Emcee. I have built python modules to read and analyze a variety of abstract data.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-tools"></span>
-									<h3>Tools</h3>
-									<p>I have extensive experience building and testing precise instruments, designing and executing experiments using optomechanical instrumentation, and verifying dimensional tolerances of components using advanced metrology equipment.</p>
-								</section>
-							</div>
-							<ul class="actions">
-								<li><a href="CV.html" class="button">My C.V.</a></li>
-							</ul>
-						</div>
-					</section>
+      <!-- <h2 id="Teaching">Teaching</h2>
+      <p><a href="#top">Back to top</a></p> -->
 
-				<!-- Three - this email thing needs to be fixed -->
-					<section id="three" class="wrapper style1 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<div class="split style1">
-								<!-- <section>
-									<form method="post" action="mailto:sean.p.macbride@gmail.com">
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="Subject">Subject</label>
-												<input type="text" name="Subject" id="Subject" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
-										</ul>
-									</form>
-								</section> -->
+      <!-- <h2 id="Media">Media</h2>
+      <a href="#top">Back to top</a> -->
+      <h2 id="CV">CV</h2>
+      <p>My most recent C.V. is available for <a href="https://github.com/seanmacb/CV/blob/master/cv_4.pdf">view</a> or <a href="https://github.com/seanmacb/CV/raw/master/cv_4.pdf" class="active">download</a> here.</p>
 
-								<section>
-									<ul class="contact">
 
-										<li>
-											<h3>Email</h3>
-											<a href="mailto:sean.p.macbride@gmail.com">Sean.P.Macbride[at]gmail.com</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>(802) 922-4673</span>
-										</li>
-										<li>
-											<h3>Social</h3>
-											<ul class="icons">
-												<li><a href="https://twitter.com/SeannieCosmos" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
-												<li><a href="https://github.com/seanmacb" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.instagram.com/seanmacbride/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="https://www.linkedin.com/in/sean-macbride/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-												<li><a href="https://www.twitch.tv/seanniecosmos" class="icon brands fa-twitch"><span class="label">Twitch</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
 
-			</div>
+      <p><a href="#top">Back to top</a></p>
+      <h2 id="Contact">Contact</h2>
 
-		<!-- Footer -->
-			<footer id="footer" class="wrapper style1-alt">
-				<div class="inner">
-					<ul class="menu">
-						<!-- <li>&copy; Untitled. All rights reserved.</li><li></li> -->
-					</ul>
-				</div>
-			</footer>
+							
+                <ul>
+                  <!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+                  <li><a href="mailto:seanmacb@umich.edu">SeanMacB[at]UMich.edu</a></li>
+                  <li><a href="https://github.com/seanmacb" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                  <li><a href="https://www.linkedin.com/in/sean-macbride/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                  <li><a href="https://twitter.com/Sean_macbride" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                  <li><a href="https://www.instagram.com/seanmacbride/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                  <li>
+              My office at Michigan can be found on the <a href="https://lsa.umich.edu/physics/people/graduate-students/seanmacb.html">
+                department website</a>.</li>
+                <li>I live in Ann Arbor, MI, but my home is Burlington VT.</span></li>
+                </ul>
+      <p><a href="#top">Back to top</a></p>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
 
-	</body>
+    </article>
+  </main>
+
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'],],
+      },
+    }
+    const typeFaceToggle = document.getElementById('typeface-toggle')
+    const typeface = document.getElementById('typeface')
+    typeFaceToggle.addEventListener('click', () => {
+      document.body.classList.toggle('libertinus')
+      typeface.textContent = document.body.classList.contains('libertinus') ? 'Libertinus' : 'Latin Modern'
+    })
+
+    const darkModeToggle = document.getElementById('dark-mode-toggle')
+    darkModeToggle.addEventListener('click', () => {
+      document.body.classList.toggle('latex-dark')
+    })
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script async src="prism/prism.js"></script>
+
+  <script async defer data-domain="latex.now.sh" src="https://plausible.io/js/plausible.js"></script>
+</body>
+
 </html>
