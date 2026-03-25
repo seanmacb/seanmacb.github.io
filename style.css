@@ -618,3 +618,39 @@ h5,
 h6 {
   margin-bottom: 0.8rem;
 }
+
+
+/* Sticky Header */
+.main-header {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Match your site background */
+  z-index: 1000;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* The "Active" state for ScrollSpy */
+.nav-link.active {
+  color: #007bff; /* Or your preferred highlight color */
+  border-bottom: 2px solid #007bff;
+}
