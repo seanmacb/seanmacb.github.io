@@ -376,6 +376,32 @@
   <script async src="prism/prism.js"></script>
 
   <script async defer data-domain="latex.now.sh" src="https://plausible.io/js/plausible.js"></script>
+
+	<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        const id = entry.target.getAttribute('id');
+        if (entry.intersectionRatio > 0) {
+          // Remove active class from all links
+          document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+          });
+          // Add active class to the link pointing to this section
+          document.querySelector(`.nav-link[href="#${id}"]`).classList.add('active');
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' }); // Triggers when section is in top half of screen
+
+    // Track all sections that have an id and a corresponding nav link
+    document.querySelectorAll('section[id], div[id]').forEach((section) => {
+      // Only observe sections that are actually in the nav
+      if (document.querySelector(`.nav-link[href="#${section.getAttribute('id')}"]`)) {
+        observer.observe(section);
+      }
+    });
+  });
+</script>
 </body>
 
 </html>
