@@ -637,20 +637,58 @@ h6 {
   margin: 0;
   padding: 0;
 }
-
+/* 
 .nav-links li {
   margin: 0 15px;
-}
+} */
 
-.nav-link {
+/* .nav-link {
   text-decoration: none;
   color: #333;
   font-weight: 500;
   transition: color 0.3s ease;
+} */
+
+/* Container for the whole header */
+.main-header {
+  position: -webkit-sticky; /* Support for Safari */
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 9999;
+  border-bottom: 1px solid #eaeaea;
+  width: 100%;
+  padding: 10px 0;
 }
 
-/* The "Active" state for ScrollSpy */
+/* Force the list to behave */
+ul.nav-links {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  list-style: none !important; /* This kills the '1's */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Force individual items to stay on one line */
+ul.nav-links li {
+  list-style: none !important;
+  list-style-type: none !important;
+  margin: 0 15px !important;
+  padding: 0 !important;
+  white-space: nowrap !important; /* This prevents 'Current Research' from splitting into two lines */
+}
+
+/* Style the links to match your theme */
+.nav-link {
+  text-decoration: none !important;
+  color: #d93025; /* Your red theme color */
+  font-weight: bold;
+  font-size: 14px;
+}
+
 .nav-link.active {
-  color: #007bff; /* Or your preferred highlight color */
-  border-bottom: 2px solid #007bff;
+  border-bottom: 2px solid #d93025;
 }
