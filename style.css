@@ -705,9 +705,3 @@ ul.nav-links li {
 ul, li {
     list-style-type: none !important;
 }
-
-/* If you want to keep numbers for ACTUAL ordered lists elsewhere, use this instead: */
-header ul, header li, .custom-nav ul, .custom-nav li {
-    list-style: none !important;
-    list-style-type: none !important;
-}
