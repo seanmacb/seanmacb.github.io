@@ -706,29 +706,35 @@ ul.nav-links li {
 /* ul, li {
     list-style-type: none !important;
 } */
-
-/* 1. Kill the numbers in the Navigation Bar */
-.main-header nav li:before, 
-.nav-links li:before {
+/* 1. Target the Navigation Bar ONLY to keep it clean */
+.main-header nav li::before, 
+.nav-links li::before {
     content: none !important;
     counter-increment: none !important;
-    padding: 0 !important;
 }
 
-/* 2. Kill the automated numbering on Headings (h2, h3, etc.) */
+/* 2. Restore standard bullets for lists in the body/article */
+/* We target 'ul' so 'ol' (ordered lists) can keep numbers if you want them */
+article ul, main ul, .body-content ul {
+    list-style-type: disc !important;
+    padding-left: 1.5rem !important; /* Creates space for the bullet */
+    margin-top: 1rem;
+}
+
+article ul li, main ul li {
+    display: list-item !important; /* Reverts LaTeX.css 'display: block' */
+    list-style: disc !important;
+    margin-bottom: 0.5rem;
+}
+
+/* 3. Kill the LaTeX-style auto-numbering specifically for these bullets */
+article ul li::before, main ul li::before {
+    content: none !important;
+    counter-increment: none !important;
+}
+
+/* 4. Keep headings clean (No "1. Astronomical Instrumentation") */
 h2::before, h3::before, h4::before {
     content: none !important;
     counter-increment: none !important;
-}
-
-/* 3. Kill numbering on all lists that aren't specifically <ol> */
-ul li:before {
-    content: none !important;
-    counter-increment: none !important;
-}
-
-/* 4. Ensure the layout doesn't shift left after removing numbers */
-.nav-links {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
 }
