@@ -693,12 +693,13 @@ ul.nav-links li {
   border-bottom: 2px solid #d93025;
 }
 
-/* Strip numbers from the navigation specifically */
-/* .nav-links, .nav-links li {
-    list-style: none !important;
-    list-style-type: none !important;
-    text-indent: 0 !important;
-} */
+.nav-links {
+  list-style-type: none; /* Removes bullets and numbers */
+  margin: 0;
+  padding: 0;
+  display: flex;        /* Optional: Aligns links horizontally */
+  gap: 20px;            /* Optional: Adds space between links */
+}
 
 /* Strip numbers from research lists if they are showing up there too */
 /* This targets lists that shouldn't be numbered */
