@@ -706,3 +706,29 @@ ul.nav-links li {
 /* ul, li {
     list-style-type: none !important;
 } */
+
+/* 1. Kill the numbers in the Navigation Bar */
+.main-header nav li:before, 
+.nav-links li:before {
+    content: none !important;
+    counter-increment: none !important;
+    padding: 0 !important;
+}
+
+/* 2. Kill the automated numbering on Headings (h2, h3, etc.) */
+h2::before, h3::before, h4::before {
+    content: none !important;
+    counter-increment: none !important;
+}
+
+/* 3. Kill numbering on all lists that aren't specifically <ol> */
+ul li:before {
+    content: none !important;
+    counter-increment: none !important;
+}
+
+/* 4. Ensure the layout doesn't shift left after removing numbers */
+.nav-links {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
