@@ -692,3 +692,22 @@ ul.nav-links li {
 .nav-link.active {
   border-bottom: 2px solid #d93025;
 }
+
+/* Strip numbers from the navigation specifically */
+.nav-links, .nav-links li {
+    list-style: none !important;
+    list-style-type: none !important;
+    text-indent: 0 !important;
+}
+
+/* Strip numbers from research lists if they are showing up there too */
+/* This targets lists that shouldn't be numbered */
+ul, li {
+    list-style-type: none !important;
+}
+
+/* If you want to keep numbers for ACTUAL ordered lists elsewhere, use this instead: */
+header ul, header li, .custom-nav ul, .custom-nav li {
+    list-style: none !important;
+    list-style-type: none !important;
+}
