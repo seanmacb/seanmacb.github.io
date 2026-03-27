@@ -662,7 +662,7 @@ h6 {
 }
 
 /* Force the list to behave */
-ul.nav-links {
+/* ul.nav-links {
   display: flex !important;
   flex-direction: row !important;
   justify-content: center !important;
@@ -670,19 +670,19 @@ ul.nav-links {
   list-style: none !important; /* This kills the '1's */
   margin: 0 !important;
   padding: 0 !important;
-}
+} */
 
 /* Force individual items to stay on one line */
-ul.nav-links li {
+/* ul.nav-links li {
   list-style: none !important;
   list-style-type: none !important;
   margin: 0 15px !important;
   padding: 0 !important;
   white-space: nowrap !important; /* This prevents 'Current Research' from splitting into two lines */
-}
+} */
 
 /* Style the links to match your theme */
-.nav-link {
+/* .nav-link {
   text-decoration: none !important;
   color: #d93025; /* Your red theme color */
   font-weight: bold;
@@ -691,17 +691,17 @@ ul.nav-links li {
 
 .nav-link.active {
   border-bottom: 2px solid #d93025;
-}
+} */
 
 /* Strip numbers from the navigation specifically */
-.nav-links, .nav-links li {
+/* .nav-links, .nav-links li {
     list-style: none !important;
     list-style-type: none !important;
     text-indent: 0 !important;
-}
+} */
 
 /* Strip numbers from research lists if they are showing up there too */
 /* This targets lists that shouldn't be numbered */
-ul, li {
+/* ul, li {
     list-style-type: none !important;
-}
+} */
