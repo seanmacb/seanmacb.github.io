@@ -738,3 +738,67 @@ h2::before, h3::before, h4::before {
     content: none !important;
     counter-increment: none !important;
 }
+
+/* 1. The Theme Heading - Add a subtle line to anchor the section */
+.theme-heading {
+    border-bottom: 2px solid #d93025;
+    display: inline-block;
+    padding-right: 50px;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+/* 2. The Card - Uses a left border instead of a full box for a cleaner look */
+.project-card {
+    border-left: 3px solid #eee;
+    padding-left: 20px;
+    margin-bottom: 2.5rem;
+    transition: border-color 0.3s ease;
+}
+
+.project-card:hover {
+    border-left-color: #d93025; /* Highlights red when hovering */
+}
+
+/* 3. Header Alignment - Puts title and date on the same line */
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap; /* Good for mobile */
+}
+
+.project-title {
+    margin-top: 0 !important;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.project-date {
+    font-size: 0.85rem;
+    color: #888;
+    font-style: italic;
+}
+
+/* 4. Skill Tags - These are the "Pills" we discussed */
+.tag-container {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.tag {
+    font-size: 0.7rem;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background: #f0f0f0;
+    color: #666;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Optional: Specific colors for your domains */
+.tag.hardware { background: #e3f2fd; color: #1976d2; }
+.tag.python { background: #fff3e0; color: #f57c00; }
