@@ -800,5 +800,23 @@ h2::before, h3::before, h4::before {
 }
 
 /* Optional: Specific colors for your domains */
-.tag.hardware { background: #e3f2fd; color: #1976d2; }
-.tag.python { background: #fff3e0; color: #f57c00; }
+.tag.rubin-observatory { background: #00BaBc; color: #A1A1A1; }
+.tag.image-sensors { background: #0CC400; color: #A1A1A1; }
+.tag.commissioning { background: #E64949; color: #A1A1A1; }
+.tag.low-noise-ccds { background: #4998E6; color: #A1A1A1; }
+.tag.robotic-positioners { background: #E6D849; color: #A1A1A1; }
+.tag.desi { background: #49A5E6; color: #A1A1A1; }
+.tag.spectrographs { background: #8A49E6; color: #A1A1A1; }
+.tag.fiber-optics { background: #E649E3; color: #A1A1A1; }
+.tag.integration-testing { background: #E65649; color: #A1A1A1; }
+.tag.spectrographs { background: #49D6E6; color: #A1A1A1; }
+.tag.python { background: #E6A749; color: #A1A1A1; }
+.tag.hubble-constant { background: #4992E6; color: #A1A1A1; }
+.tag.desc { background: #C24848; color: #A1A1A1; }
+.tag.gws { background: #5A48C2; color: #A1A1A1; }
+.tag.delve { background: #A148C2; color: #A1A1A1; }
+.tag.des { background: #48C295; color: #A1A1A1; }
+.tag.lvk { background: #48C24A; color: #A1A1A1; }
+.tag.isos { background: #46D941; color: #A1A1A1; }
+.tag.multiband-astro { background: #D941C5; color: #A1A1A1; }
+.tag.system-engineering { background: #D1288B; color: #A1A1A1; }
