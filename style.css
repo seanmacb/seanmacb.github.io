@@ -811,9 +811,9 @@ h2::before, h3::before, h4::before {
 .tag.integration-testing { background: #E65649; color: #000000; }
 .tag.spectrographs { background: #49D6E6; color: #000000; }
 .tag.python { background: #E6A749; color: #000000; }
-.tag.hubble-constant { background: #122E82; color: #000000; }
-.tag.desc { background: #B2103C; color: #000000; }
-.tag.gws { background: #8E16D9; color: #000000; }
+.tag.hubble-constant { background: #A1A1FF; color: #000000; }
+.tag.desc { background: #FFA1C7; color: #000000; }
+.tag.gws { background: #E8A1FF; color: #000000; }
 .tag.delve { background: #FF26FF; color: #000000; }
 .tag.des { background: #48C295; color: #000000; }
 .tag.lvk { background: #48C24A; color: #000000; }
